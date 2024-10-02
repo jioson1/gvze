@@ -3,7 +3,7 @@ pr: &pr {type: select, proxies: [🚀 节点选择, 🌐 全部节点, ♻️ �
 
 # 机场订阅，名称不能重复
 proxy-providers:
-  名称:
+  名称1:
     type: http
     interval: 86400
     health-check:
@@ -13,7 +13,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "订阅"
  
-  名称:
+  名称2:
     type: http
     interval: 86400
     health-check:
@@ -23,7 +23,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "订阅"
   
-  Alice:
+  Alice3:
     type: http
     interval: 86400
     health-check:
@@ -33,7 +33,7 @@ proxy-providers:
     proxy: 🟢 直连
     url: "订阅"
 
-  名称:
+  名称4:
     type: http
     interval: 86400
     health-check:
