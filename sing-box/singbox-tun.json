@@ -71,10 +71,6 @@
     { "tag": "🎵 TikTok", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换"] },
     { "tag": "🎥 Netflix", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换"] },
     { "tag": "📲 Telegram", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换"] },
-    { "tag": "🎞 Twitter", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换"] },
-    { "tag": "💶 PayPal", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换"] },
-    { "tag": "🎞️ Emby专用", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换"] },
-    { "tag": "✈️ Speedtest", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点", "🐸 手动切换"] },
     { "tag": "🍏 Apple", "type": "selector", "outbounds": ["🎯 全球直连", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇺🇲 美国节点"] },
     { "tag": "🐠 漏网之鱼", "type": "selector", "outbounds": ["🚀 节点选择","🎯 全球直连"] },
     { "tag": "🐸 手动切换", "type": "selector", "outbounds": ["{all}"]},
@@ -109,10 +105,6 @@
      {"rule_set": ["geosite-apple", "geoip-apple"], "outbound": "🍏 Apple"},
      {"rule_set": "geosite-onedrive", "outbound": "🐬 OneDrive"},
      {"rule_set": "geosite-microsoft", "outbound": "🪟 Microsoft"},
-     {"rule_set": "geosite-speedtest", "outbound": "✈️ Speedtest"},
-     {"rule_set": "geosite-twitter", "outbound": "🎞 Twitter"},
-     {"rule_set": "geosite-paypal", "outbound": "💶 PayPal"},
-     {"rule_set": "geosite-emby", "outbound": "🎞️ Emby专用"},
      {"rule_set": "geosite-geolocation-!cn", "outbound": "🚀 节点选择"},
      {"rule_set": ["geoip-cn", "geosite-cn"], "outbound": "🎯 全球直连"}
    ],
@@ -131,11 +123,6 @@
       { "tag": "geosite-geolocation-!cn", "type": "remote", "format": "binary", "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-cn", "type": "remote", "format": "binary", "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/cn.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geosite-private", "type": "remote", "format": "binary", "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/private.srs", "download_detour": "🎯 全球直连" },
-
-      { "tag": "geosite-speedtest", "type": "remote", "format": "binary", "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/ookla-speedtest.mrs", "download_detour": "🎯 全球直连" },
-      { "tag": "geosite-twitter", "type": "remote", "format": "binary", "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/twitter.srs", "download_detour": "🎯 全球直连" },
-      { "tag": "geosite-emby", "type": "remote", "format": "binary", "url": "https://ghfast.top/https://raw.githubusercontent.com/jioson1/gvze/refs/heads/main/emby/emby.list", "download_detour": "🎯 全球直连" },
-      { "tag": "geosite-paypal", "type": "remote", "format": "binary", "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/paypal@cn.srs", "download_detour": "🎯 全球直连" },
             
       { "tag": "geoip-google", "type": "remote", "format": "binary", "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/google.srs", "download_detour": "🎯 全球直连" },
       { "tag": "geoip-telegram", "type": "remote", "format": "binary", "url": "https://ghfast.top/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs", "download_detour": "🎯 全球直连" },     
