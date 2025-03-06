@@ -3,28 +3,19 @@
   "rules": [
     {
       "domain": [
-        "cf.lilyemby.my",
-	"cfemby.lilyyaya.top",
-	"u.lilyemby.my",
-	"jp.lilyemby.my",
-	"cc.coemn.com",
-	"cminf.sfcat.link",
-	"notnetflix.cos.cat",
-	"az-hk.embyclub.com",
-	"azsgp.embyclub.com",
-	"neo.iflya321.com",
-        "yezi.hannn.me"
+        "manga.bilibili.com",
+        "upos-hz-mirrorakam.akamaized.net"
       ],
       "domain_suffix": [
         "bilicomic.com",
+        "bilicomics.com",
         "jingzhe.pro",
-        "acg.tv",
-        "acgvideo.com",
-        "animetamashi.cn",
-        "animetamashi.com",
+        "tanhuatv.site",
+        "emby.wtf",
+        "auroramedia.vip",
         "anitama.cn",
         "anitama.net",
-        "b23.tv",
+        "term.wtf",
         "bigfun.cn",
         "bigfunapp.cn",
         "bili22.cn",
