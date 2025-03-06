@@ -2,10 +2,10 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
-        "cavps.eu.org"
-        "super.yezi.my"
- ]
+      "domain_suffix": [
+        "super.yezi.my",
+        "yezi.hannn.me"
+      ]
     }
   ]
 }
