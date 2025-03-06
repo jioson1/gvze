@@ -2,10 +2,10 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
+      "domain_suffix": [
         "manga.bilibili.com",
         "upos-hz-mirrorakam.akamaized.net",
-        "emby.jingzhe.pro"
+        "jingzhe.pro"
       ],
       "domain_keyword": [
         "emby"
