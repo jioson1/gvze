@@ -7,7 +7,7 @@
   
   "experimental": {
     "clash_api": {
-      "external_controller": "0.0.0.0:9293",
+      "external_controller": "0.0.0.0:9095",
       "external_ui": "/etc/sing-box/ui",
       "secret": "",
       "external_ui_download_url": "https://gh-proxy.com/https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip",
@@ -87,7 +87,6 @@
    "default_mark": 666,
    "rules": 
    [
-     {"port": [22,53,80,143,443,465,853,873,993,995,5222,8080,8443,9418], "invert": true, "outbound": "🎯 全球直连"},
      {"action": "sniff"},
      {"protocol": "dns", "action": "hijack-dns"},
      {"clash_mode": "direct", "outbound": "🎯 全球直连"},
